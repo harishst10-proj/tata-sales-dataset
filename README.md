@@ -59,3 +59,7 @@ Buses sold only 3 units but still rank third, because a single Starbus EV order 
 Hatchbacks and Sedans move decent volume but add little revenue because of their low price points.
 Bus models carry the highest margin over buy price (about 14 to 16%).
 Order status: 17 of 25 orders are shipped, 5 are in process, 2 are on hold and 1 is cancelled.
+
+<img width="367" height="262" alt="Overall Sales data by productline" src="https://github.com/user-attachments/assets/830603d3-ad82-4059-a01c-2f3f26b21c26" /> <br>
+<img width="525" height="633" alt="Ranking by sales made" src="https://github.com/user-attachments/assets/7036613d-a17c-4ed0-880e-e60abeee7463" />
+
