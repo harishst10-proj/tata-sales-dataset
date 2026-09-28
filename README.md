@@ -52,23 +52,6 @@ A self join on employees maps every employee to their manager. The National Sale
 RANK() on MSRP shows the top-priced models are buses: Tata Starbus EV (₹98 lakh), Tata Marcopolo Bus (₹71 lakh), Tata Starbus 12m (₹52 lakh).
 DENSE_RANK(), AVG() OVER and LAG() compare prices within each product line and track running order quantities.
 
-**Stored procedures:**
-
-show_all_products(): full product list
-products_above_stock(min): products above a stock threshold
-customer_orders(id): all orders for one customer
-
-Revenue by product line (order revenue = quantity × price)
-
-Product line	Units	Revenue
-SUVs	38	₹4.01 crore
-Trucks	23	₹3.41 crore
-Buses	3	₹2.94 crore
-Electric Vehicles	20	₹2.81 crore
-Hatchbacks	12	₹0.86 crore
-Pickup Trucks	7	₹0.71 crore
-Sedans	6	₹0.51 crore
-
 **What stands out:**
 
 Total order revenue is about ₹15.25 crore. SUVs lead with roughly 26% of it.
