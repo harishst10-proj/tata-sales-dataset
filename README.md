@@ -60,14 +60,6 @@ customer_orders(id): all orders for one customer
 
 Revenue by product line (order revenue = quantity × price)
 
-sql
-SELECT p.productLine,
-       SUM(od.quantityOrdered)               AS units_sold,
-       SUM(od.quantityOrdered * od.priceEach) AS revenue
-FROM orderdetails od
-JOIN products p ON p.productCode = od.productCode
-GROUP BY p.productLine
-ORDER BY revenue DESC;
 Product line	Units	Revenue
 SUVs	38	₹4.01 crore
 Trucks	23	₹3.41 crore
